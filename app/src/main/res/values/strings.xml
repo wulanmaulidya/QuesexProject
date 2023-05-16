@@ -1,4 +1,30 @@
 <resources>
     <string name="app_name">Quesex Project</string>
     <string name="sex_home">Quesex</string>
+    <string name="text_pubertas">Pubertas</string>
+    <string name="text_identitas">Identitas Gender</string>
+    <string name="orientasi">Orientasi Sex</string>
+    <string name="pms">Pra-Menstruasi</string>
+    <string name="kehamilan">Kehamilan</string>
+    <string name="tubuh">Tubuh Kita</string>
+    <string name="reproduksi">Reproduksi</string>
+    <string name="hubungan">Hubungan</string>
+    <string name="logo">Qsexproject</string>
+    <string name="signin">Sign In</string>
+    <string name="username">Usename</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="btn_signin">Sign In</string>
+    <string name="info_signin">Belum Punya Akun? Sign Up</string>
+    <string name="Qsexproject2">logo2</string>
+    <string name="signup_username">Username</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_pass">Password</string>
+    <string name="signup_confirm">Confirm Password</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="info_signup">Sudah punya akun? Sign In</string>
+    <string name="signup">Sign Up</string>
+    <string name="QsexProject3">logo3</string>
+    <string name="home_qsex">logo ce/co</string>
+    <string name="menu_home">Menu</string>
 </resources>
