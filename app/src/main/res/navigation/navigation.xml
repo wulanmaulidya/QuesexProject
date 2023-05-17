@@ -9,5 +9,5 @@
         android:id="@+id/homeFragment"
         android:name="org.d3ifproject.quesex.ui.home.HomeFragment"
         android:label="fragment_menu1"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_main" />
 </navigation>
