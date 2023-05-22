@@ -5,6 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
+import org.d3ifproject.quesex.R
 import org.d3ifproject.quesex.databinding.FragmentMainBinding
 
 class MainFragment : Fragment() {
@@ -20,6 +22,12 @@ class MainFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
+        binding.cardSexEdu.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_sexeduFragment)
+        }
+
+        binding.cardGame.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_gameFragment)
+        }
     }
 }

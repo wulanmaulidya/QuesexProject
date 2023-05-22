@@ -161,6 +161,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardOrientasiSex"
         android:layout_width="258dp"
         android:layout_height="51dp"
         app:cardBackgroundColor="#CEB3E8"
@@ -192,6 +193,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardIdGender"
         android:layout_width="260dp"
         android:layout_height="50dp"
         android:layout_marginEnd="7dp"
@@ -224,6 +226,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardPubertas"
         android:layout_width="260dp"
         android:layout_height="47dp"
         android:layout_marginStart="7dp"

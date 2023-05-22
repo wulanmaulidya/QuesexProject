@@ -7,7 +7,43 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="org.d3ifproject.quesex.ui.home.HomeFragment"
-        android:label="fragment_menu1"
-        tools:layout="@layout/fragment_main" />
+        android:name="org.d3ifproject.quesex.ui.MainFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_homeFragment_to_sexeduFragment"
+            app:destination="@id/sexeduFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sexeduFragment"
+        android:name="org.d3ifproject.quesex.ui.SexeduFragment"
+        android:label="Sex Education"
+        tools:layout="@layout/fragment_list_sexedu">
+        <action
+            android:id="@+id/action_sexeduFragment_to_sexeduDetailFragment"
+            app:destination="@id/sexeduDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sexeduDetailFragment"
+        android:name="org.d3ifproject.quesex.ui.SexeduDetailFragment"
+        android:label="Sex Education"
+        tools:layout="@layout/activity_detail_sexedu" >
+        <argument
+            android:name="gambar"
+            app:argType="integer" />
+        <argument
+            android:name="judul"
+            app:argType="string" />
+        <argument
+            android:name="isi"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="org.d3ifproject.quesex.ui.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" />
 </navigation>

@@ -30,4 +30,7 @@
     <string name="pubertas_info">Pubertas</string>
     <string name="QsexProject4">logo pubertas</string>
     <string name="exit_dialog">Apakah anda ingin keluar dari aplikasi?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ini_halaman_game">Ini halaman game.</string>
 </resources>
