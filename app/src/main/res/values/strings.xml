@@ -30,6 +30,31 @@
     <string name="pubertas_info">Pubertas</string>
     <string name="QsexProject4">logo pubertas</string>
     <string name="exit_dialog">Apakah anda ingin keluar dari aplikasi?</string>
+    <string name="judul_pubertas">Pubertas</string>
+    <string name="isi_pubertas">Pubertas adalah periode dalam perkembangan manusia\n\n
+        di mana terjadi perubahan fisik, hormonal, dan emosional yang signifikan\n\n
+        yang mengarah pada kematangan seksual.\n\n
+        Pada masa ini, tubuh mengalami pertumbuhan yang pesat dan organ-organ reproduksi menjadi matang.\n\n
+        Umumnya, pubertas dimulai pada masa remaja.</string>
+    <string name="judul_gender">Identitas Gender</string>
+    <string name="isi_gender">Identitas gender adalah bagaimana seseorang mengidentifikasi dan merasakan dirinya sendiri\n\n
+        dalam hal jenis kelamin atau gender yang mereka rasakan\n\n
+        sesuai dengan perasaan dan identitas yang mereka miliki di dalam diri mereka.\n\n
+        Identitas gender bukanlah hal yang sama dengan jenis kelamin biologis seseorang,\n\n
+        tetapi lebih berkaitan dengan bagaimana seseorang merasa dan mengidentifikasi dirinya\n\n
+        sebagai laki-laki, perempuan, atau mungkin kombinasi atau variasi dari keduanya.</string>
+    <string name="judul_orientasi_sex">Orientasi Sex</string>
+    <string name="isi_orientasi_sex">isi</string>
+    <string name="judul_pms">Pra-Menstruasi</string>
+    <string name="isi_pms">isi</string>
+    <string name="judul_kehamilan">Kehamilan</string>
+    <string name="isi_kehamilan">isi</string>
+    <string name="judul_tubuh">Tubuh Kita</string>
+    <string name="isi_tubuh">isi</string>
+    <string name="judul_reproduksi">Reproduksi</string>
+    <string name="isi_reproduksi">isi</string>
+    <string name="judul_hubungan">Hubungan</string>
+    <string name="isi_hubugan">isi</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="ini_halaman_game">Ini halaman game.</string>
