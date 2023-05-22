@@ -29,4 +29,5 @@
     <string name="menu_home">Menu</string>
     <string name="pubertas_info">Pubertas</string>
     <string name="QsexProject4">logo pubertas</string>
+    <string name="exit_dialog">Apakah anda ingin keluar dari aplikasi?</string>
 </resources>

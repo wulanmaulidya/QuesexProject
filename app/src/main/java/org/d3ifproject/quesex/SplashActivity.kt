@@ -9,6 +9,7 @@ import android.view.Window
 import android.view.WindowInsets
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
+import org.d3ifproject.quesex.ui.SigninActivity
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,7 +36,8 @@ class SplashActivity : AppCompatActivity() {
         val splashTime: Long = 3000 // lama splash (3000 = 3 detik)
 
         Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this, MainActivity::class.java)
+           // val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, SigninActivity::class.java)
             startActivity(intent)
             finish()
         }, splashTime)
