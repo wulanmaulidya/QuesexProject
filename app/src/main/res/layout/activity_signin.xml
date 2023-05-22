@@ -40,6 +40,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/amaranth"
                 android:text="@string/signin"
+                android:textColor="@color/black"
                 android:textSize="25sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toTopOf="@+id/cardView"
@@ -49,8 +50,10 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView"
-                android:layout_width="284dp"
-                android:layout_height="40dp"
+                android:layout_width="257dp"
+                android:layout_height="61dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 app:cardBackgroundColor="#FFFFFF"
                 app:cardCornerRadius="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -76,7 +79,7 @@
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/username_inp"
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="61dp"
                             android:hint="@string/username" />
                     </com.google.android.material.textfield.TextInputLayout>
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -84,8 +87,9 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView2"
-                android:layout_width="284dp"
-                android:layout_height="40dp"
+                android:layout_width="258dp"
+                android:layout_height="61dp"
+                android:layout_marginBottom="5dp"
                 app:cardBackgroundColor="#FFFFFF"
                 app:cardCornerRadius="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -111,7 +115,7 @@
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/email_inp"
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="61dp"
                             android:hint="@string/email" />
                     </com.google.android.material.textfield.TextInputLayout>
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -119,8 +123,9 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView6"
-                android:layout_width="284dp"
-                android:layout_height="40dp"
+                android:layout_width="259dp"
+                android:layout_height="63dp"
+                android:layout_marginBottom="5dp"
                 app:cardBackgroundColor="#FFFFFF"
                 app:cardCornerRadius="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -146,7 +151,7 @@
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/password_inp"
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="63dp"
                             android:hint="@string/pass" />
                     </com.google.android.material.textfield.TextInputLayout>
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -154,8 +159,9 @@
 
             <Button
                 android:id="@+id/button_signin"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="118dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="5dp"
                 android:fontFamily="@font/amaranth"
                 android:text="@string/btn_signin"
                 app:layout_constraintBottom_toBottomOf="parent"

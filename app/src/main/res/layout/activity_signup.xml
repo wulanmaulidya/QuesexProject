@@ -14,13 +14,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.114"
+        app:layout_constraintVertical_bias="0.097"
         app:srcCompat="@drawable/logo" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView5"
-        android:layout_width="336dp"
-        android:layout_height="453dp"
+        android:layout_width="338dp"
+        android:layout_height="470dp"
         app:cardBackgroundColor="#CEB3E8"
         app:cardCornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,8 +35,10 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView"
-                android:layout_width="284dp"
-                android:layout_height="65dp"
+                android:layout_width="262dp"
+                android:layout_height="56dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 app:cardBackgroundColor="#FFFFFF"
                 app:cardCornerRadius="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -62,7 +64,7 @@
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/username2_inp"
                             android:layout_width="match_parent"
-                            android:layout_height="65dp"
+                            android:layout_height="match_parent"
                             android:hint="@string/signup_username" />
                     </com.google.android.material.textfield.TextInputLayout>
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -84,8 +86,9 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView2"
-                android:layout_width="278dp"
-                android:layout_height="61dp"
+                android:layout_width="263dp"
+                android:layout_height="55dp"
+                android:layout_marginBottom="5dp"
                 app:cardBackgroundColor="#FFFFFF"
                 app:cardCornerRadius="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -119,8 +122,9 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView3"
-                android:layout_width="284dp"
-                android:layout_height="40dp"
+                android:layout_width="263dp"
+                android:layout_height="53dp"
+                android:layout_marginBottom="5dp"
                 app:cardBackgroundColor="#FFFFFF"
                 app:cardCornerRadius="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -136,8 +140,8 @@
 
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/password2_hint"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_width="270dp"
+                        android:layout_height="53dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -154,8 +158,9 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView4"
-                android:layout_width="284dp"
-                android:layout_height="40dp"
+                android:layout_width="261dp"
+                android:layout_height="51dp"
+                android:layout_marginBottom="5dp"
                 app:cardBackgroundColor="#FFFFFF"
                 app:cardCornerRadius="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -189,8 +194,9 @@
 
             <Button
                 android:id="@+id/button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="109dp"
+                android:layout_height="39dp"
+                android:layout_marginBottom="4dp"
                 android:background="@drawable/roundedbutton"
                 android:fontFamily="@font/amaranth"
                 android:text="@string/signup"
