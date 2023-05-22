@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="org.d3ifproject.quesex.ui.MainFragment"
-        android:label="@string/menu_home"
+        android:label="@string/sex_home"
         tools:layout="@layout/fragment_main" >
         <action
             android:id="@+id/action_homeFragment_to_sexeduFragment"
@@ -44,6 +44,6 @@
     <fragment
         android:id="@+id/gameFragment"
         android:name="org.d3ifproject.quesex.ui.GameFragment"
-        android:label="fragment_game"
+        android:label="Game"
         tools:layout="@layout/fragment_game" />
 </navigation>
