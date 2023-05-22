@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "988469233854",
+    "project_id": "quesex-8c9ad",
+    "storage_bucket": "quesex-8c9ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988469233854:android:e5dee74036b7f135c6b6ef",
+        "android_client_info": {
+          "package_name": "org.d3ifproject.quesex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988469233854-u9pls6s25qenl27iddpihkb4ogjdoqlu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.d3ifproject.quesex",
+            "certificate_hash": "da479536af9ed4a31ed4c8782b46a3f592091da6"
+          }
+        },
+        {
+          "client_id": "988469233854-acqgk8npqrdt63mccregde2ih8jvetjr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_ibk8nws-7PRNg9KSZQz16tgFAYaVl8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988469233854-acqgk8npqrdt63mccregde2ih8jvetjr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
