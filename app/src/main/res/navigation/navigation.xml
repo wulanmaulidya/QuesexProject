@@ -36,10 +36,10 @@
             app:argType="integer" />
         <argument
             android:name="judul"
-            app:argType="string" />
+            app:argType="integer" />
         <argument
             android:name="isi"
-            app:argType="string" />
+            app:argType="integer" />
     </fragment>
     <fragment
         android:id="@+id/gameFragment"
