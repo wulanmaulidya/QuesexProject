@@ -16,16 +16,20 @@
         tools:context=".MainActivity"
         tools:viewBindingIgnore="true" />
 
-    <!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
-    <!--    app:layout_constraintBottom_toTopOf="@id/bottomNavigationView"-->
-    <!--        android:id="@+id/bottomNavigationView"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        app:fontFamily="@font/amaranth"-->
-    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintHorizontal_bias="0.5"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:menu="@menu/nav_menu" />-->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="420dp"
+        android:layout_height="65dp"
+        android:background = "#CEB3E8"
+        android:topRightRadius="70dp"
+        app:itemIconTint="#FF000000"
+        app:itemTextColor="#FF000000"
+        app:layout_constraintBottom_toBottomOf="@+id/myNavHostFragment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/bottom_nav_menu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
