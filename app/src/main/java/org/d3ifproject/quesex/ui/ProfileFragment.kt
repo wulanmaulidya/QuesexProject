@@ -20,7 +20,6 @@ class ProfileFragment : Fragment() {
     private val contract = FirebaseAuthUIActivityResultContract()
     private val signInLauncher = registerForActivityResult(contract) {}
     private lateinit var viewModel: ProfileViewModel
-
     private lateinit var binding: FragmentProfileBinding
 
     override fun onCreateView(

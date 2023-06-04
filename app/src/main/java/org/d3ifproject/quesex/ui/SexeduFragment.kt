@@ -17,6 +17,7 @@ class SexeduFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
         binding = FragmentListSexeduBinding.inflate(layoutInflater, container, false)
         return binding.root
     }

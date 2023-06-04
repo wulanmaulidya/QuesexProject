@@ -18,17 +18,18 @@ class SexeduDetailFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
         binding = ActivityDetailSexeduBinding.inflate(layoutInflater, container, false)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         // Memberikan judul pada title bar halaman
-        (activity as AppCompatActivity).supportActionBar?.title = args.judul
+        (activity as AppCompatActivity).supportActionBar?.title = args.judul.toString()
 
         // passing data dari SexeduFragment
         binding.img.setImageResource(args.gambar)
-        binding.judul.text = args.judul
-        binding.isi.text = args.isi
+        binding.judul.text = args.judul.toString()
+        binding.isi.text = args.isi.toString()
     }
 }

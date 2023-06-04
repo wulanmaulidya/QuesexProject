@@ -46,4 +46,8 @@
         android:name="org.d3ifproject.quesex.ui.GameFragment"
         android:label="Game"
         tools:layout="@layout/fragment_game" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="org.d3ifproject.quesex.ui.ProfileFragment"
+        android:label="ProfileFragment" />
 </navigation>
