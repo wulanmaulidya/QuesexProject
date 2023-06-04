@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.google.firebase.auth.FirebaseUser
 import org.d3ifproject.quesex.R
 import org.d3ifproject.quesex.databinding.FragmentMainBinding
 
@@ -28,6 +29,13 @@ class MainFragment : Fragment() {
 
         binding.cardGame.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_gameFragment)
+        }
+    }
+    private fun updateUI(user: FirebaseUser?) = with(binding) {
+        if (user == null) {
+            HelloUser.text = "Selamat Datang!"
+        } else {
+            HelloUser.text = "Halo, " + user.displayName
         }
     }
 }

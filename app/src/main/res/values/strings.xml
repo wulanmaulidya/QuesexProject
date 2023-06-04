@@ -55,7 +55,9 @@
     <string name="isi_reproduksi">isi</string>
     <string name="judul_hubungan">Hubungan</string>
     <string name="isi_hubugan">isi</string>
+    <string name="about_app"><![CDATA[Wulan, Taufiq dan Yenna\nQuesex Project ©2023]]></string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="ini_halaman_game">Ini halaman game.</string>
+    <string name="logout">Keluar</string>
 </resources>
