@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import org.d3ifproject.quesex.R
 import org.d3ifproject.quesex.databinding.FragmentListSexeduBinding
 
@@ -17,7 +18,6 @@ class SexeduFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
         binding = FragmentListSexeduBinding.inflate(layoutInflater, container, false)
         return binding.root
     }

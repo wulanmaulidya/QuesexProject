@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Quesex Project</string>
+    <string name="app_name">Quesex</string>
     <string name="sex_home">Quesex</string>
     <string name="text_pubertas">Pubertas</string>
     <string name="text_identitas">Identitas Gender</string>
@@ -31,13 +31,31 @@
     <string name="QsexProject4">logo pubertas</string>
     <string name="exit_dialog">Apakah anda ingin keluar dari aplikasi?</string>
     <string name="judul_pubertas">Pubertas</string>
-    <string name="isi_pubertas">Pubertas adalah periode dalam perkembangan manusia di mana terjadi perubahan fisik, hormonal, dan emosional yang signifikan yang mengarah pada kematangan seksual.
-        \nPada masa ini, tubuh mengalami pertumbuhan yang pesat dan organ-organ reproduksi menjadi matang.
-        \nUmumnya, pubertas dimulai pada masa remaja.</string>
+    <string name="isi_pubertas">Pubertas adalah periode perkembangan fisik dan seksual yang terjadi saat seseorang mencapai kematangan reproduksi. Proses pubertas terjadi pada remaja dan ditandai dengan perubahan signifikan dalam tubuh, hormon, dan fungsi seksual. Berikut adalah informasi penting tentang pubertas:
+\n\n1.Rentang Usia: Pubertas biasanya terjadi antara usia 8-13 tahun pada perempuan dan 9-14 tahun pada laki-laki. Namun, rentang usia pubertas dapat bervariasi untuk setiap individu.
+\n\n2.Perubahan Fisik pada Perempuan:
+   - Pertumbuhan payudara: Payudara mulai tumbuh dan berkembang.
+   - Pertumbuhan rambut: Rambut kemaluan dan ketiak mulai tumbuh.
+   - Menstruasi: Siklus menstruasi dimulai dengan adanya menstruasi atau haid.
+   - Pertumbuhan tubuh: Pertumbuhan tinggi badan yang signifikan terjadi pada awal pubertas.
+\n\n3.Perubahan Fisik pada Laki-laki:
+   - Pertumbuhan testis: Testis mulai tumbuh dan berkembang.
+   - Pertumbuhan rambut: Rambut kemaluan, wajah, dan ketiak mulai tumbuh.
+   - Suara: Suara menjadi lebih dalam karena perubahan pada pita suara.
+   - Pertumbuhan tubuh: Pertumbuhan tinggi badan yang signifikan terjadi pada awal pubertas.
+\n\n4.Perubahan Hormonal: Pubertas ditandai oleh peningkatan produksi hormon seks, seperti estrogen pada perempuan dan testosteron pada laki-laki. Hormon-hormon ini memicu perubahan fisik dan perkembangan seksual.
+\n\n5.Perubahan Emosional dan Psikologis: Selain perubahan fisik, remaja juga mengalami perubahan emosional dan psikologis selama pubertas. Ini termasuk fluktuasi mood, perubahan persepsi diri, eksplorasi identitas, dan perubahan hubungan sosial.
+\n\n6.Perawatan Diri: Selama pubertas, penting bagi remaja untuk menjaga kebersihan diri yang baik, termasuk menjaga kebersihan tubuh, merawat kulit, menjaga kebersihan gigi, dan menggunakan produk perawatan diri yang sesuai.
+\n\n7.Pendidikan Seksual: Pubertas juga merupakan waktu yang tepat untuk memperoleh pengetahuan yang tepat tentang seksualitas dan kesehatan reproduksi. Pendidikan seksual yang komprehensif penting untuk membantu remaja memahami perubahan tubuh mereka, mengatasi masalah dan kekhawatiran yang mungkin muncul, serta mempromosikan kesehatan reproduksi dan hubungan yang sehat.
+\n\nSetiap individu mengalami pubertas dengan cara yang berbeda dan pada waktu yang berbeda pula. Jika Anda memiliki pertanyaan lebih lanjut tentang pubertas atau perubahan yang Anda alami, penting untuk berbicara dengan orang tua, dokter, atau profesional kesehatan lainnya yang dapat memberikan informasi dan dukungan yang tepat.</string>
     <string name="judul_gender">Identitas Gender</string>
-    <string name="isi_gender">Identitas gender adalah bagaimana seseorang mengidentifikasi dan merasakan dirinya sendiri dalam hal jenis kelamin atau gender yang mereka rasakan sesuai dengan perasaan dan identitas yang mereka miliki di dalam diri mereka.
-        \nIdentitas gender bukanlah hal yang sama dengan jenis kelamin biologis seseorang,
-        \ntetapi lebih berkaitan dengan bagaimana seseorang merasa dan mengidentifikasi dirinya sebagai laki-laki, perempuan, atau mungkin kombinasi atau variasi dari keduanya.</string>
+    <string name="isi_gender">Identitas gender merujuk pada cara individu mengidentifikasi dan mengartikan diri mereka sendiri secara internal, terkait dengan kategori gender seperti pria, wanita, atau identitas gender non-binari. Identitas gender bukanlah hal yang sama dengan jenis kelamin biologis atau orientasi seksual. Berikut adalah beberapa informasi tentang identitas gender:
+\n\n1.Jenis Kelamin Biologis: Jenis kelamin biologis merujuk pada karakteristik fisik dan fisiologis yang dikaitkan dengan laki-laki atau perempuan, seperti kromosom, alat kelamin, hormon, dan struktur tubuh lainnya.
+\n\n2.Identitas Gender: Identitas gender adalah cara seseorang mengidentifikasi dan mengartikan dirinya sendiri secara dalam sebagai pria, wanita, atau identitas gender lainnya yang mungkin tidak sesuai dengan jenis kelamin biologisnya. Identitas gender seseorang mungkin sejalan dengan jenis kelamin biologisnya (cisgender) atau berbeda dengan jenis kelamin biologisnya (transgender).
+\n\n3.Spektrum Gender: Identitas gender bukanlah hal yang terbatas pada dua kategori biner (pria dan wanita). Ada spektrum luas identitas gender yang mencakup variasi dan kompleksitas yang beragam, termasuk identitas non-binari, genderfluid, bigender, agender, dan lainnya. Identitas gender dapat beragam dan unik untuk setiap individu.
+\n\n4.Peran Gender dan Ekspresi Gender: Peran gender merujuk pada harapan, norma, dan pola perilaku yang masyarakat terkaitkan dengan jenis kelamin tertentu. Ekspresi gender adalah cara individu menyampaikan identitas gender mereka melalui pakaian, gaya rambut, penampilan, bahasa tubuh, dan gaya hidup. Peran gender dan ekspresi gender dapat bervariasi secara budaya dan sosial.
+\n\n5.Pengalaman Individu: Pengalaman identitas gender dapat sangat bervariasi untuk setiap individu. Beberapa orang mungkin merasa sejalan dengan identitas gender mereka sejak masa kecil, sementara yang lain mungkin menyadari atau menjelajahi identitas gender mereka di kemudian hari. Setiap perjalanan identitas gender unik, dan dukungan dan penghargaan terhadap perasaan dan pengalaman individu sangat penting.
+\n\nPenting untuk diingat bahwa setiap individu memiliki hak untuk mengidentifikasi dan mengartikan identitas gender mereka sendiri. Menghormati dan mengakui identitas gender seseorang adalah langkah penting dalam menciptakan masyarakat yang inklusif dan menghargai keragaman gender.</string>
     <string name="judul_orientasi_sex">Orientasi Sex</string>
     <string name="isi_orientasi_sex">Orientasi seksual merujuk pada ketertarikan romantis, seksual, atau emosional seseorang terhadap orang lain.
 \nOrientasi seksual biasanya dibagi menjadi beberapa kategori yang umum, termasuk heteroseksual, homoseksual, biseksual, dan aseksual.
