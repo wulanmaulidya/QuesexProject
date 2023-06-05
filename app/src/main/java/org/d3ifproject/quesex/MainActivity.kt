@@ -9,8 +9,12 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.findNavController
+import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
+import androidx.navigation.ui.NavigationUI.setupActionBarWithNavController
 import androidx.navigation.ui.NavigationUI.setupWithNavController
+import androidx.navigation.ui.setupActionBarWithNavController
+import androidx.navigation.ui.setupWithNavController
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
@@ -28,15 +32,22 @@ class MainActivity : AppCompatActivity() {
     private lateinit var navController: NavController
     lateinit var mGoogleSignInClient: GoogleSignInClient
     private val viewModel: MainViewModel by lazy {
-        ViewModelProvider(this).get(MainViewModel::class.java)
+        ViewModelProvider(this)[MainViewModel::class.java]
     }
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-//        setContentView(R.layout.activity_main)
+
+        val navView: BottomNavigationView = findViewById(R.id.bottomNavigationView)
+        val navController = findNavController(R.id.myNavHostFragment)
+        val appBarConfiguration = AppBarConfiguration.Builder(
+            R.id.homeFragment, R.id.profileFragment,).build()
+        setupActionBarWithNavController(navController, appBarConfiguration)
+        navView.setupWithNavController(navController)
 
 
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
@@ -51,10 +62,10 @@ class MainActivity : AppCompatActivity() {
 
 //        navController = findNavController(R.id.myNavHostFragment)
 //        NavigationUI.setupActionBarWithNavController(this, navController)
-        navController = Navigation.findNavController(
-            this, R.id.myNavHostFragment
-        )
-        setupWithNavController(binding.bottomNavigationView, navController)
+//        navController = Navigation.findNavController(
+//            this, R.id.myNavHostFragment
+//        )
+//        setupWithNavController(binding.bottomNavigationView, navController)
     }
 
 //    override fun onSupportNavigateUp(): Boolean {

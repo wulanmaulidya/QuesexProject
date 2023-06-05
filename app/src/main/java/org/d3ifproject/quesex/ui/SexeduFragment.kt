@@ -31,15 +31,16 @@ class SexeduFragment : Fragment() {
             val passData = SexeduFragmentDirections.actionSexeduFragmentToSexeduDetailFragment(gambar,judul, isi )
             findNavController().navigate(passData)
         }
-//
-//        binding.cardIdGender.setOnClickListener {
-//            val gambar = R.drawable.identitas_gender
-//            val judul = R.string.judul_gender // WAJIB DI MASUKIN STRING!
-//            val isi = R.string.isi_gender // WAJIB DI MASUKIN STRING!
-//
-//            val passData = SexeduFragmentDirections.actionSexeduFragmentToSexeduDetailFragment(gambar,judul,isi)
-//            findNavController().navigate(passData)
-//        }
+
+        binding.cardIdGender.setOnClickListener {
+            val gambar = R.drawable.identitas_gender
+            val judul = R.string.judul_gender // WAJIB DI MASUKIN STRING!
+            val isi = R.string.isi_gender // WAJIB DI MASUKIN STRING!
+
+            val passData = SexeduFragmentDirections.actionSexeduFragmentToSexeduDetailFragment(gambar,judul,isi)
+            findNavController().navigate(passData)
+        }
+
 //        binding.cardOrientasiSex.setOnClickListener {
 //            val gambar = R.drawable.orientasi_sex
 //            val judul = R.string.judul_orientasi_sex // WAJIB DI MASUKIN STRING!

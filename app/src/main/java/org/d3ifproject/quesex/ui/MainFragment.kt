@@ -24,7 +24,7 @@ class MainFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        (activity as AppCompatActivity?)?.supportActionBar!!.hide()
+//        (activity as AppCompatActivity?)?.supportActionBar!!.hide()
         binding = FragmentMainBinding.inflate(layoutInflater, container, false)
         return binding.root
     }

@@ -12,10 +12,19 @@
         tools:layout="@layout/fragment_main" >
         <action
             android:id="@+id/action_homeFragment_to_sexeduFragment"
-            app:destination="@id/sexeduFragment" />
+            app:destination="@id/sexeduFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true"/>
         <action
             android:id="@+id/action_homeFragment_to_gameFragment"
-            app:destination="@id/gameFragment" />
+            app:destination="@id/gameFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/sexeduFragment"
@@ -24,7 +33,9 @@
         tools:layout="@layout/fragment_list_sexedu">
         <action
             android:id="@+id/action_sexeduFragment_to_sexeduDetailFragment"
-            app:destination="@id/sexeduDetailFragment" />
+            app:destination="@id/sexeduDetailFragment"
+            app:popUpTo="@id/sexeduFragment"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/sexeduDetailFragment"
@@ -40,6 +51,9 @@
         <argument
             android:name="isi"
             app:argType="integer" />
+        <action
+            android:id="@+id/action_sexeduDetailFragment_to_sexeduFragment"
+            app:destination="@id/sexeduFragment" />
     </fragment>
     <fragment
         android:id="@+id/gameFragment"

@@ -1,13 +1,17 @@
 package org.d3ifproject.quesex.ui
 
+import android.R
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import org.d3ifproject.quesex.databinding.ActivityDetailSexeduBinding
+
 
 class SexeduDetailFragment : Fragment() {
     private lateinit var binding: ActivityDetailSexeduBinding
@@ -25,11 +29,11 @@ class SexeduDetailFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         // Memberikan judul pada title bar halaman
-        (activity as AppCompatActivity).supportActionBar?.title = args.judul.toString()
+        (activity as AppCompatActivity).supportActionBar?.title = getString(args.judul)
 
         // passing data dari SexeduFragment
         binding.img.setImageResource(args.gambar)
-        binding.judul.text = args.judul.toString()
-        binding.isi.text = args.isi.toString()
+        binding.judul.text = getString(args.judul)
+        binding.isi.text = getString(args.isi)
     }
 }
