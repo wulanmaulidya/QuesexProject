@@ -63,5 +63,5 @@
     <fragment
         android:id="@+id/profileFragment"
         android:name="org.d3ifproject.quesex.ui.ProfileFragment"
-        android:label="ProfileFragment" />
+        android:label="Profile" />
 </navigation>

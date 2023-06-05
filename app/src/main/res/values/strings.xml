@@ -31,30 +31,68 @@
     <string name="QsexProject4">logo pubertas</string>
     <string name="exit_dialog">Apakah anda ingin keluar dari aplikasi?</string>
     <string name="judul_pubertas">Pubertas</string>
-    <string name="isi_pubertas">Pubertas adalah periode dalam perkembangan manusia\n\n
-        di mana terjadi perubahan fisik, hormonal, dan emosional yang signifikan\n\n
-        yang mengarah pada kematangan seksual.\n\n
-        Pada masa ini, tubuh mengalami pertumbuhan yang pesat dan organ-organ reproduksi menjadi matang.\n\n
-        Umumnya, pubertas dimulai pada masa remaja.</string>
+    <string name="isi_pubertas">Pubertas adalah periode dalam perkembangan manusia di mana terjadi perubahan fisik, hormonal, dan emosional yang signifikan yang mengarah pada kematangan seksual.
+        \nPada masa ini, tubuh mengalami pertumbuhan yang pesat dan organ-organ reproduksi menjadi matang.
+        \nUmumnya, pubertas dimulai pada masa remaja.</string>
     <string name="judul_gender">Identitas Gender</string>
-    <string name="isi_gender">Identitas gender adalah bagaimana seseorang mengidentifikasi dan merasakan dirinya sendiri\n\n
-        dalam hal jenis kelamin atau gender yang mereka rasakan\n\n
-        sesuai dengan perasaan dan identitas yang mereka miliki di dalam diri mereka.\n\n
-        Identitas gender bukanlah hal yang sama dengan jenis kelamin biologis seseorang,\n\n
-        tetapi lebih berkaitan dengan bagaimana seseorang merasa dan mengidentifikasi dirinya\n\n
-        sebagai laki-laki, perempuan, atau mungkin kombinasi atau variasi dari keduanya.</string>
+    <string name="isi_gender">Identitas gender adalah bagaimana seseorang mengidentifikasi dan merasakan dirinya sendiri dalam hal jenis kelamin atau gender yang mereka rasakan sesuai dengan perasaan dan identitas yang mereka miliki di dalam diri mereka.
+        \nIdentitas gender bukanlah hal yang sama dengan jenis kelamin biologis seseorang,
+        \ntetapi lebih berkaitan dengan bagaimana seseorang merasa dan mengidentifikasi dirinya sebagai laki-laki, perempuan, atau mungkin kombinasi atau variasi dari keduanya.</string>
     <string name="judul_orientasi_sex">Orientasi Sex</string>
-    <string name="isi_orientasi_sex">isi</string>
+    <string name="isi_orientasi_sex">Orientasi seksual merujuk pada ketertarikan romantis, seksual, atau emosional seseorang terhadap orang lain.
+\nOrientasi seksual biasanya dibagi menjadi beberapa kategori yang umum, termasuk heteroseksual, homoseksual, biseksual, dan aseksual.
+\nBerikut adalah penjelasan singkat tentang masing-masing orientasi seksual:
+\n\n1.Heteroseksual: Heteroseksual adalah ketika seseorang merasa tertarik secara romantis, seksual, atau emosional terhadap orang dengan jenis kelamin yang berbeda. Ini adalah orientasi seksual yang paling umum di banyak budaya di seluruh dunia.
+\n\n2.Homoseksual: Homoseksualitas merujuk pada ketertarikan romantis, seksual, atau emosional seseorang terhadap orang dengan jenis kelamin yang sama. Seorang pria yang tertarik pada pria secara seksual disebut gay, sementara seorang wanita yang tertarik pada wanita disebut lesbian.
+\n\n3.Biseksual: Biseksualitas adalah ketika seseorang merasa tertarik secara romantis, seksual, atau emosional terhadap orang dengan jenis kelamin yang berbeda maupun sama. Orang yang biseksual bisa merasa tertarik pada pria dan wanita.
+\n\n4.Aseksual: Aseksualitas merujuk pada ketiadaan ketertarikan seksual atau kurangnya minat pada aktivitas seksual dengan orang lain. Meskipun seseorang aseksual tidak merasakan ketertarikan seksual, mereka masih bisa memiliki ikatan emosional atau romantis dengan orang lain.
+\n\nSelain orientasi seksual di atas, terdapat juga beragam identitas dan pengalaman seksual lainnya, seperti panseksual (ketertarikan pada orang terlepas dari identitas atau ekspresi gender mereka), demiseksual (ketertarikan seksual hanya muncul setelah ada ikatan emosional yang kuat), dan lain sebagainya.
+\n\nPenting untuk diingat bahwa orientasi seksual adalah bagian alami dari identitas seseorang, dan tidak ada yang salah atau buruk dengan memiliki orientasi seksual tertentu. Setiap individu berhak untuk mengidentifikasi dirinya sendiri dan hidup sesuai dengan orientasi seksual mereka tanpa diskriminasi atau pengekangan.</string>
     <string name="judul_pms">Pra-Menstruasi</string>
-    <string name="isi_pms">isi</string>
+    <string name="isi_pms">Pramenstruasi, yang juga dikenal sebagai sindrom pramenstruasi atau PMS (Pre-Menstrual Syndrome), merujuk pada kumpulan gejala fisik, emosional, dan perilaku yang terjadi pada beberapa wanita dalam beberapa hari atau minggu menjelang menstruasi mereka.
+\nBerikut adalah beberapa informasi mengenai pramenstruasi:
+\n\n1.Gejala: Gejala pramenstruasi dapat bervariasi dari wanita ke wanita, dan juga dapat berbeda pada setiap siklus menstruasi. Gejala umum meliputi perubahan suasana hati seperti mudah marah, mudah tersinggung, atau perasaan sedih; perubahan emosional seperti kecemasan atau depresi; kelelahan; perubahan nafsu makan; kembung; sakit payudara; sakit kepala; nyeri perut bagian bawah; dan retensi cairan.
+\n\n2.Penyebab: Penyebab pasti pramenstruasi belum sepenuhnya dipahami, tetapi diduga terkait dengan perubahan hormon dalam siklus menstruasi. Fluktuasi hormon, terutama estrogen dan progesteron, dapat memengaruhi kimia otak dan neurotransmiter, yang dapat berdampak pada suasana hati, emosi, dan kesejahteraan fisik.
+\n\n3.Durasi dan Timing: Gejala pramenstruasi biasanya muncul beberapa hari hingga dua minggu sebelum menstruasi dan biasanya menghilang setelah menstruasi dimulai. Namun, intensitas dan durasi gejala dapat bervariasi. Beberapa wanita mungkin hanya mengalami gejala ringan, sementara yang lain dapat mengalami gejala yang lebih parah yang mempengaruhi kualitas hidup sehari-hari.
+\n\n4.Pengelolaan: Ada beberapa cara yang dapat membantu mengelola gejala pramenstruasi. Ini termasuk menjaga gaya hidup sehat dengan pola makan seimbang, olahraga teratur, tidur yang cukup, mengelola stres, dan menghindari konsumsi alkohol dan kafein berlebih. Jika gejala pramenstruasi mengganggu kehidupan sehari-hari, dokter dapat merekomendasikan penggunaan obat-obatan, seperti analgesik untuk mengurangi nyeri atau kontrasepsi hormonal untuk mengatur siklus dan mengurangi gejala pramenstruasi.
+\n\nPramenstruasi adalah kondisi umum yang dialami oleh banyak wanita. Jika Anda mengalami gejala pramenstruasi yang parah atau mengganggu, disarankan untuk berkonsultasi dengan profesional medis untuk mendapatkan penilaian dan saran yang lebih spesifik.</string>
     <string name="judul_kehamilan">Kehamilan</string>
-    <string name="isi_kehamilan">isi</string>
+    <string name="isi_kehamilan">Kehamilan adalah proses di mana janin berkembang dalam rahim seorang wanita setelah pembuahan. Berikut adalah beberapa informasi penting tentang kehamilan:
+\n\n1.Konsepsi: Kehamilan dimulai dengan konsepsi, yaitu saat sel sperma bertemu dan membuahi sel telur dalam saluran reproduksi wanita. Ini biasanya terjadi saat hubungan seksual yang melibatkan ejakulasi di dalam vagina, tetapi juga dapat terjadi melalui teknik reproduksi assisten seperti fertilisasi in vitro (IVF).
+\n\n2.Tahapan Kehamilan: Kehamilan umumnya dibagi menjadi tiga trimester. Trimester pertama berlangsung dari minggu pertama hingga minggu ke-12, trimester kedua dari minggu ke-13 hingga minggu ke-27, dan trimester ketiga dari minggu ke-28 hingga persalinan.
+\n\n3.Perkembangan Janin: Selama kehamilan, janin mengalami perkembangan yang cepat. Setelah terjadi konsepsi, embrio akan berkembang menjadi janin yang memiliki organ-organ dan sistem yang semakin berkembang. Pada akhir trimester kedua, janin biasanya sudah memiliki bentuk dan fitur yang jelas.
+\n\n4.Perawatan Kehamilan: Selama kehamilan, perawatan medis yang tepat sangat penting. Ini termasuk pemeriksaan prenatal secara teratur untuk memastikan kesehatan ibu dan janin, pengambilan suplemen prenatal yang direkomendasikan, pemeriksaan ultrasonografi untuk memantau perkembangan janin, dan tes laboratorium untuk mendeteksi penyakit atau masalah genetik tertentu.
+\n\n5.Perubahan Fisik dan Emosional: Selama kehamilan, wanita akan mengalami perubahan fisik seperti peningkatan berat badan, pertumbuhan perut, dan perubahan hormon yang dapat memengaruhi suasana hati dan perasaan. Perubahan hormon juga dapat menyebabkan gejala seperti mual, muntah, kelelahan, perubahan nafsu makan, dan peningkatan ukuran payudara.
+\n\n6.Persalinan dan Melahirkan: Pada akhir trimester ketiga, janin biasanya siap untuk lahir. Persalinan adalah proses alami di mana rahim berkontraksi untuk mendorong janin melalui saluran lahir. Setelah persalinan, bayi lahir melalui proses yang disebut melahirkan.
+\n\nSetiap kehamilan unik, dan setiap wanita dapat mengalami pengalaman yang berbeda. Penting untuk mendapatkan perawatan prenatal yang tepat dan berkonsultasi dengan profesional medis untuk memastikan kehamilan yang sehat dan aman.</string>
     <string name="judul_tubuh">Tubuh Kita</string>
-    <string name="isi_tubuh">isi</string>
+    <string name="isi_tubuh">Tubuh manusia memiliki beragam komponen dan organ yang bekerja bersama untuk menjaga fungsi dan kesehatan secara keseluruhan. Berikut adalah beberapa informasi tentang beberapa komponen utama dalam tubuh manusia:
+\n\n1.Organ: Tubuh manusia terdiri dari berbagai organ yang memiliki fungsi khusus. Organ-organ utama termasuk jantung, paru-paru, hati, ginjal, otak, usus, lambung, kulit, mata, telinga, dan banyak lagi. Setiap organ memiliki peran penting dalam menjalankan fungsi-fungsi tubuh yang kritis.
+\n\n2.Sistem Organ: Organ-organ dalam tubuh manusia tergabung dalam sistem-sistem organ yang beroperasi secara bersamaan untuk menjaga keseimbangan internal. Beberapa sistem organ yang penting meliputi sistem peredaran darah, sistem pencernaan, sistem pernapasan, sistem saraf, sistem ekskresi, sistem reproduksi, sistem muskuloskeletal, dan sistem endokrin.
+\n\n3.Jaringan: Jaringan adalah kelompok sel yang bekerja bersama untuk melakukan fungsi tertentu. Ada beberapa jenis jaringan dalam tubuh manusia, termasuk jaringan otot, jaringan saraf, jaringan ikat, jaringan epitel, dan jaringan tulang.
+\n\n4.Sel: Sel adalah unit dasar kehidupan dalam tubuh manusia. Tubuh manusia terdiri dari berbagai jenis sel yang berbeda, seperti sel darah merah, sel otot, sel saraf, sel kulit, dan banyak lagi. Setiap jenis sel memiliki struktur dan fungsi khusus.
+\n\n5.Cairan Tubuh: Tubuh manusia juga mengandung berbagai jenis cairan yang penting untuk fungsi normal. Cairan tubuh utama meliputi darah, air limfa, air mata, air liur, cairan serebrospinal, cairan sinovial, dan urin.
+\n\n6.Sistem Imun: Sistem kekebalan tubuh adalah sistem yang melindungi tubuh dari infeksi dan penyakit. Ini terdiri dari berbagai jenis sel dan molekul yang bekerja bersama untuk mengenali dan melawan patogen seperti bakteri, virus, dan jamur.
+\n\nIni hanya beberapa komponen utama dalam tubuh manusia. Tubuh manusia sangat kompleks dan berfungsinya secara harmonis untuk menjaga kesehatan dan kelangsungan hidup. Setiap komponen memiliki peran penting dalam menjalankan fungsi tubuh yang esensial.</string>
     <string name="judul_reproduksi">Reproduksi</string>
-    <string name="isi_reproduksi">isi</string>
+    <string name="isi_reproduksi">Reproduksi adalah proses di mana organisme menghasilkan keturunan atau memperbanyak diri. Berikut adalah beberapa informasi penting tentang reproduksi pada manusia:
+\n\n1.Reproduksi Seksual: Manusia melakukan reproduksi seksual, yang melibatkan perpaduan materi genetik dari dua individu yang berbeda. Proses ini melibatkan dua jenis kelamin, yakni pria dan wanita. Pria memiliki sel sperma, sedangkan wanita memiliki sel telur. Fertilisasi, yaitu penyatuan sel sperma dan sel telur, terjadi di saluran reproduksi wanita.
+\n\n2.Organ Reproduksi Pria: Organ reproduksi pria meliputi testis, epididimis, saluran deferens, vesikula seminalis, prostat, dan penis. Testis berfungsi menghasilkan sperma dan hormon testosteron.
+\n\n3.Organ Reproduksi Wanita: Organ reproduksi wanita meliputi ovarium (indung telur), tuba falopi, uterus (rahim), dan vagina. Ovarium menghasilkan sel telur dan hormon estrogen dan progesteron. Sel telur dilepaskan dari ovarium selama proses ovulasi dan kemudian bergerak melalui tuba falopi menuju rahim.
+\n\n4.Menstruasi: Pada wanita yang belum mengalami menopause, rahim mengalami siklus bulanan yang dikenal sebagai siklus menstruasi. Selama siklus ini, lapisan dalam rahim, yang disebut endometrium, mempersiapkan dirinya untuk menerima sel telur yang telah dibuahi. Jika pembuahan tidak terjadi, endometrium akan terlepas dalam bentuk menstruasi.
+\n\n5.Kehamilan: Jika sel telur dibuahi oleh sperma dan menempel di dinding rahim, kehamilan dimulai. Sel telur yang telah dibuahi berkembang menjadi embrio, kemudian menjadi janin. Janin tumbuh dan berkembang dalam rahim selama sekitar 9 bulan sebelum melahirkan.
+\n\n6.Metode Kontrasepsi: Ada berbagai metode kontrasepsi yang tersedia untuk mencegah kehamilan. Metode kontrasepsi meliputi pil KB, kondom, spiral intrauterin (IUD), suntikan hormonal, dan lainnya.
+\n\n7.Reproduksi Manusia dan Seksualitas: Selain reproduksi, seksualitas juga melibatkan aspek-aspek lain seperti hasrat seksual, identitas gender, dan orientasi seksual. Setiap individu memiliki pengalaman dan preferensi yang unik terkait dengan seksualitas mereka.
+\n\nReproduksi manusia adalah proses yang kompleks dan penting dalam kelangsungan hidup spesies. Penting bagi individu untuk mendapatkan pengetahuan tentang reproduksi yang akurat dan menyadari opsi yang tersedia untuk mengelola reproduksi mereka dengan bijaksana. Jika Anda membutuhkan informasi lebih lanjut tentang topik ini, disarankan untuk berkonsultasi dengan profesional medis atau penyedia layanan kesehatan.</string>
     <string name="judul_hubungan">Hubungan</string>
-    <string name="isi_hubugan">isi</string>
+    <string name="isi_hubugan">Hubungan adalah interaksi dan ikatan antara dua individu atau lebih. Hubungan dapat mencakup berbagai jenis hubungan, seperti hubungan romantis, hubungan keluarga, hubungan persahabatan, dan hubungan profesional. Berikut adalah beberapa informasi tentang hubungan:
+\n\n1.Hubungan Romantis: Hubungan romantis melibatkan kedekatan emosional, fisik, dan seksual antara dua orang. Ini dapat mencakup hubungan pacaran, pernikahan, atau kemitraan hidup. Hubungan romantis membutuhkan komunikasi yang baik, kepercayaan, rasa hormat, komitmen, dan pengertian satu sama lain.
+\n\n2.Hubungan Keluarga: Hubungan keluarga melibatkan ikatan antara anggota keluarga, seperti hubungan antara orangtua dan anak, saudara kandung, atau hubungan antara anggota keluarga yang lebih luas. Hubungan keluarga didasarkan pada ikatan darah, perkawinan, atau adopsi. Hubungan keluarga dapat mencakup dukungan emosional, dukungan finansial, dan interaksi sehari-hari.
+\n\n3.Hubungan Persahabatan: Hubungan persahabatan adalah hubungan yang didasarkan pada rasa saling menghargai, kepercayaan, dan dukungan antara dua orang atau lebih. Teman dekat bisa menjadi sumber dukungan emosional, teman berbagi, dan seseorang yang dapat diandalkan dalam berbagai situasi.
+\n\n4.Hubungan Profesional: Hubungan profesional terbentuk di lingkungan kerja atau dalam konteks profesional lainnya. Ini melibatkan interaksi antara kolega, atasan dan bawahan, atau mitra bisnis. Hubungan profesional membutuhkan kerja sama, komunikasi yang baik, saling pengertian, dan rasa hormat terhadap peran dan tanggung jawab masing-masing individu.
+\n\n5.Komunikasi dalam Hubungan: Komunikasi yang efektif adalah aspek penting dalam hubungan yang sehat. Mendengarkan dengan empati, berbicara secara jujur dan terbuka, memahami perasaan dan kebutuhan satu sama lain, dan menyelesaikan konflik secara konstruktif adalah keterampilan komunikasi yang penting untuk dibangun dan dipertahankan dalam hubungan.
+\n\n6.Perawatan dan Pemeliharaan Hubungan: Hubungan membutuhkan perawatan dan pemeliharaan yang kontinu. Hal ini melibatkan penghargaan, perhatian, dan pengorbanan waktu dan energi untuk pasangan atau anggota keluarga. Merayakan kesuksesan bersama, menghadapi tantangan bersama, dan terus berinvestasi dalam hubungan adalah penting untuk menjaga hubungan yang sehat dan berkelanjutan.
+\n\nSetiap hubungan unik dan kompleks dalam cara dan dinamikanya. Penting untuk menciptakan hubungan yang sehat dan saling mendukung dengan memahami, menghormati, dan menghargai satu sama lain.</string>
     <string name="about_app"><![CDATA[Wulan, Taufiq dan Yenna\nQuesex Project ©2023]]></string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

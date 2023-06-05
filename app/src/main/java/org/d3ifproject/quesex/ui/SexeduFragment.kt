@@ -41,54 +41,53 @@ class SexeduFragment : Fragment() {
             findNavController().navigate(passData)
         }
 
-//        binding.cardOrientasiSex.setOnClickListener {
-//            val gambar = R.drawable.orientasi_sex
-//            val judul = R.string.judul_orientasi_sex // WAJIB DI MASUKIN STRING!
-//            val isi = R.string.isi_orientasi_sex // WAJIB DI MASUKIN STRING!
-//
-//            val passData = SexeduFragmentDirections.actionSexeduFragmentToSexeduDetailFragment(gambar,judul,isi)
-//            findNavController().navigate(passData)
-//        }
-//        binding.cardPms.setOnClickListener {
-//            val gambar = R.drawable.pms
-//            val judul = R.string.judul_pms // WAJIB DI MASUKIN STRING!
-//            val isi = R.string.isi_pms // WAJIB DI MASUKIN STRING!
-//
-//            val passData = SexeduFragmentDirections.actionSexeduFragmentToSexeduDetailFragment(gambar,judul,isi)
-//            findNavController().navigate(passData)
-//        }
-//        binding.cardKehamilan.setOnClickListener {
-//            val gambar = R.drawable.kehamilan
-//            val judul = R.string.judul_kehamilan // WAJIB DI MASUKIN STRING!
-//            val isi = R.string.isi_kehamilan // WAJIB DI MASUKIN STRING!
-//
-//            val passData = SexeduFragmentDirections.actionSexeduFragmentToSexeduDetailFragment(gambar,judul,isi)
-//            findNavController().navigate(passData)
-//        }
-//        binding.cardTubuh.setOnClickListener {
-//            val gambar = R.drawable.tubuh_kita
-//            val judul = R.string.judul_tubuh // WAJIB DI MASUKIN STRING!
-//            val isi = R.string.isi_tubuh // WAJIB DI MASUKIN STRING!
-//
-//            val passData = SexeduFragmentDirections.actionSexeduFragmentToSexeduDetailFragment(gambar,judul,isi)
-//            findNavController().navigate(passData)
-//        }
-//        binding.cardReproduksi.setOnClickListener {
-//            val gambar = R.drawable.reproduksi
-//            val judul = R.string.judul_reproduksi // WAJIB DI MASUKIN STRING!
-//            val isi = R.string.isi_reproduksi // WAJIB DI MASUKIN STRING!
-//
-//            val passData = SexeduFragmentDirections.actionSexeduFragmentToSexeduDetailFragment(gambar,judul,isi)
-//            findNavController().navigate(passData)
-//        }
-//        binding.cardHubungan.setOnClickListener {
-//            val gambar = R.drawable.hubungan
-//            val judul = R.string.judul_hubungan // WAJIB DI MASUKIN STRING!
-//            val isi = R.string.isi_hubugan // WAJIB DI MASUKIN STRING!
-//
-//            val passData = SexeduFragmentDirections.actionSexeduFragmentToSexeduDetailFragment(gambar,judul,isi)
-//            findNavController().navigate(passData)
-//        }
-//    }
+        binding.cardOrientasiSex.setOnClickListener {
+            val gambar = R.drawable.orientasi_sex
+            val judul = R.string.judul_orientasi_sex // WAJIB DI MASUKIN STRING!
+            val isi = R.string.isi_orientasi_sex // WAJIB DI MASUKIN STRING!
+
+            val passData = SexeduFragmentDirections.actionSexeduFragmentToSexeduDetailFragment(gambar,judul,isi)
+            findNavController().navigate(passData)
+        }
+        binding.cardPms.setOnClickListener {
+            val gambar = R.drawable.pms
+            val judul = R.string.judul_pms // WAJIB DI MASUKIN STRING!
+            val isi = R.string.isi_pms // WAJIB DI MASUKIN STRING!
+
+            val passData = SexeduFragmentDirections.actionSexeduFragmentToSexeduDetailFragment(gambar,judul,isi)
+            findNavController().navigate(passData)
+        }
+        binding.cardKehamilan.setOnClickListener {
+            val gambar = R.drawable.kehamilan
+            val judul = R.string.judul_kehamilan // WAJIB DI MASUKIN STRING!
+            val isi = R.string.isi_kehamilan // WAJIB DI MASUKIN STRING!
+
+            val passData = SexeduFragmentDirections.actionSexeduFragmentToSexeduDetailFragment(gambar,judul,isi)
+            findNavController().navigate(passData)
+        }
+        binding.cardTubuh.setOnClickListener {
+            val gambar = R.drawable.tubuh_kita
+            val judul = R.string.judul_tubuh // WAJIB DI MASUKIN STRING!
+            val isi = R.string.isi_tubuh // WAJIB DI MASUKIN STRING!
+
+            val passData = SexeduFragmentDirections.actionSexeduFragmentToSexeduDetailFragment(gambar,judul,isi)
+            findNavController().navigate(passData)
+        }
+        binding.cardReproduksi.setOnClickListener {
+            val gambar = R.drawable.reproduksi
+            val judul = R.string.judul_reproduksi // WAJIB DI MASUKIN STRING!
+            val isi = R.string.isi_reproduksi // WAJIB DI MASUKIN STRING!
+
+            val passData = SexeduFragmentDirections.actionSexeduFragmentToSexeduDetailFragment(gambar,judul,isi)
+            findNavController().navigate(passData)
+        }
+        binding.cardHubungan.setOnClickListener {
+            val gambar = R.drawable.hubungan
+            val judul = R.string.judul_hubungan // WAJIB DI MASUKIN STRING!
+            val isi = R.string.isi_hubugan // WAJIB DI MASUKIN STRING!
+
+            val passData = SexeduFragmentDirections.actionSexeduFragmentToSexeduDetailFragment(gambar,judul,isi)
+            findNavController().navigate(passData)
+        }
     }
-}
+    }
