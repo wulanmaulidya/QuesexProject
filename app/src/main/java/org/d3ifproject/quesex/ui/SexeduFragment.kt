@@ -20,6 +20,12 @@ class SexeduFragment : Fragment() {
     ): View? {
         binding = FragmentListSexeduBinding.inflate(layoutInflater, container, false)
         return binding.root
+//        val view = inflater.inflate(R.layout.fragment_list_sexedu, container, false)
+//        val bottomNavigationView: BottomNavigationView = view.findViewById(R.id.bottomNavigationView)
+//        bottomNavigationView.visibility = View.GONE
+
+//        return view
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

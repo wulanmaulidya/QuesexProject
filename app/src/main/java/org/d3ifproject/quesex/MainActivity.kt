@@ -2,6 +2,7 @@ package org.d3ifproject.quesex
 
 import android.os.Bundle
 import android.view.Menu
+import android.view.MenuItem
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
@@ -48,6 +49,7 @@ class MainActivity : AppCompatActivity() {
             R.id.homeFragment, R.id.profileFragment,).build()
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+//        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
 
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
@@ -67,6 +69,17 @@ class MainActivity : AppCompatActivity() {
 //        )
 //        setupWithNavController(binding.bottomNavigationView, navController)
     }
+
+//    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+//        when (item.itemId) {
+//            android.R.id.home -> {
+//                // Tindakan ketika tombol kembali ditekan, misalnya:
+//                onBackPressed()
+//                return true
+//            }
+//        }
+//        return super.onOptionsItemSelected(item)
+//    }
 
 //    override fun onSupportNavigateUp(): Boolean {
 //        return navController.navigateUp()
