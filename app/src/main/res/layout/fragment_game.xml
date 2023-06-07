@@ -11,7 +11,8 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:paddingLeft="16dp"/>
 
     <RadioGroup
         android:id="@+id/optionRadioGroup"
@@ -63,6 +64,7 @@
         android:layout_below="@id/submitButton"
         android:layout_marginTop="16dp"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:paddingLeft="16dp"/>
 
 </RelativeLayout>
