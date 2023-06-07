@@ -3,6 +3,7 @@ package org.d3ifproject.quesex.ui
 import android.R
 import android.os.Bundle
 import android.view.LayoutInflater
+import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import androidx.activity.OnBackPressedCallback
@@ -35,5 +36,17 @@ class SexeduDetailFragment : Fragment() {
         binding.img.setImageResource(args.gambar)
         binding.judul.text = getString(args.judul)
         binding.isi.text = getString(args.isi)
+        val actionBar = (requireActivity() as AppCompatActivity).supportActionBar
+        actionBar?.setDisplayHomeAsUpEnabled(true)
+    }
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            android.R.id.home -> {
+                // Arahkan pengguna ke halaman sebelumnya
+                requireActivity().onBackPressed()
+                return true
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 }

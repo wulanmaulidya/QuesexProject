@@ -24,6 +24,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import org.d3ifproject.quesex.databinding.ActivityMainBinding
 import org.d3ifproject.quesex.model.MainViewModel
+import org.d3ifproject.quesex.ui.GameFragment
 import org.d3ifproject.quesex.ui.MainFragment
 import org.d3ifproject.quesex.ui.ProfileFragment
 
@@ -42,6 +43,9 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.fragmentContainer, GameFragment())
+            .commit()
 
         val navView: BottomNavigationView = findViewById(R.id.bottomNavigationView)
         val navController = findNavController(R.id.myNavHostFragment)

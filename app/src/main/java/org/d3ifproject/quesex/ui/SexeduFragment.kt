@@ -2,8 +2,10 @@ package org.d3ifproject.quesex.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
+import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -95,5 +97,18 @@ class SexeduFragment : Fragment() {
             val passData = SexeduFragmentDirections.actionSexeduFragmentToSexeduDetailFragment(gambar,judul,isi)
             findNavController().navigate(passData)
         }
+        val actionBar = (requireActivity() as AppCompatActivity).supportActionBar
+        actionBar?.setDisplayHomeAsUpEnabled(true)
     }
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            android.R.id.home -> {
+                // Arahkan pengguna ke halaman sebelumnya
+                requireActivity().onBackPressed()
+                return true
+            }
+        }
+        return super.onOptionsItemSelected(item)
+    }
+
     }
