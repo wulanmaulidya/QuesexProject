@@ -48,7 +48,8 @@
                 android:textSize="17sp"
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
-                android:paddingTop="35dp"/>
+                android:paddingTop="35dp"
+                android:paddingBottom="60dp"/>
 
         </LinearLayout>
     </ScrollView>
