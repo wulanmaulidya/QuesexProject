@@ -24,16 +24,16 @@ class GameFragment : Fragment(R.layout.fragment_game) {
 
     private val questions = arrayOf(
         "Pertanyaan 1: Di bawah ini yang merupakan ciri-ciri pubertas pada laki-laki?",
-        "Question 2: What is the largest planet in our solar system?",
-        "Question 3: Who painted the Mona Lisa?",
-        "Question 4: What year did World War II end?"
+        "Question 2: Bagaimana penggunaan kontrasepsi dapat membantu mencegah kehamilan?",
+        "Question 3: Apa yang dimaksud dengan pubertas ?",
+        "Question 4: Apa yang dimaksud dengan istilah consent dalam konteks hubungan seksual?"
     )
 
     private val options = arrayOf(
         arrayOf("Payudara membesar", "Mengalami Menstruasi", "suara membesar", "pinggul membesar"),
-        arrayOf("Jupiter", "Mars", "Earth", "Saturn"),
-        arrayOf("Pablo Picasso", "Leonardo da Vinci", "Vincent van Gogh", "Michelangelo"),
-        arrayOf("1943", "1944", "1945", "1946")
+        arrayOf("Mencegah sperma bertemu dengan sel telur", " Menghancurkan sperma di dalam tubuh wanita", "Mencegah ovulasi terjadi", "Menghentikan perkembangan janin dalam rahim"),
+        arrayOf("Masa awal kehidupan seseorang", "Masa transisi dari anak-anak menjadi remaja dengan perubahan fisik dan perkembangan seksual", "Masa pertumbuhan dan perkembangan pada orang dewasa", "Masa menopause pada wanita"),
+        arrayOf("Menerima pernikahan dengan pasangan", "Izin atau persetujuan yang diberikan secara sukarela oleh semua pihak yang terlibat", "Mengendalikan nafsu seksual", "Melakukan tindakan seksual tanpa izin")
     )
 
     private val correctAnswers = arrayOf(0, 2, 1, 2)
